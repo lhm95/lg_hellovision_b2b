@@ -160,13 +160,31 @@ table tbody tr:last-child td {
   margin: 0 auto;
   height: 40px;
   line-height: 35px;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   position: relative;
 }
 .check input{
   vertical-align: middle;
 }
 .check label {
+  font-size: 13px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.check2 {
+  background: #fff;
+  width: 35%;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 35px;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+}
+.check2 input{
+  vertical-align: middle;
+}
+.check2 label {
   font-size: 13px;
   margin-left: 15px;
   vertical-align: middle;
@@ -189,4 +207,7 @@ table tbody tr:last-child td {
 
 .toggle{
   display: none;
+}
+.toggle.on{
+  display: table-cell;
 }

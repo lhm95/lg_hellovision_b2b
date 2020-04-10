@@ -263,7 +263,7 @@ var all_input = function () {
   print3 = Number(print3);
   print4 = Number(print4);
   var print = document.getElementsByClassName("all_input")[0];
-  print.innerHTML = (print1 + print2 + print3 + print4).toLocaleString();
+  print.innerHTML = (print1).toLocaleString();
 };
 
 function show01() {
@@ -448,5 +448,5 @@ var all_l2 = function(){
 }
 
 function show05() {
-  $(".toggle").toggleClass("toggle");
+  $(".toggle").toggleClass("on");
 }
